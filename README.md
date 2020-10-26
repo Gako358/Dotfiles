@@ -1,26 +1,22 @@
-My qtile config
-===============
+My DWM config
+==============
 
-![dirty](/qtile/misc/scrot1.png)
+![dirty](/Pictures/Images/main.png)
 
-# Setting up qtile
-qtile docs can be found [here](0)
+# Setting up DWM 
+Please read docs found [here](https://github.com/Gako358/Suckless/tree/1db702730bbd31b4871af87debef31389f22626e/dwm)
 
-Info on running qtile as the wm for Gnome can be found [here](1). It should be
-possible to do something similar with mate...
+Sudo make install dmenu, dwm, dwmblocks, st and surf to get my setup!
 
+## For my vim setup
+![dirty](Pictures/Images/vim.png)
 
-### Installing qtile
-```bash
-$ sudo apt-get install libpangocairo-1.0-0 libxcb-render0-dev libffi-dev
-$ sudo python3 -m pip install xcffib cairocfii qtile
-```
+Please download and run my vimrc file found [here](https://github.com/Gako358/Dotfiles/blob/c29bff846896715ed28f6658a3c4aa086f3bf083/.vimrc)
 
-### Adding qtile to the desktop list
-```bash
-$ cp misc/qtile.desktop /usr/share/xsessions/
-```
+### Other setting are found [here](https://github.com/Gako358/Dotfiles/tree/c29bff846896715ed28f6658a3c4aa086f3bf083)
 
 
-  [0]: http://docs.qtile.org/en/latest/
-  [1]: http://docs.qtile.org/en/latest/manual/config/gnome.html
+
+
+[0]: https://github.com/Gako358/Dotfiles/blob/c29bff846896715ed28f6658a3c4aa086f3bf083/.vimrc
+[1]: https://github.com/Gako358/Dotfiles/tree/c29bff846896715ed28f6658a3c4aa086f3bf083
