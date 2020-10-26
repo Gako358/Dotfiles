@@ -23,7 +23,7 @@ Plug 'xolox/vim-session'
 "" Color Scheme
 "" Plug 'morhetz/gruvbox'               ### Original Gruvbox
 "" Plug 'gruvbox-community/gruvbox'     ### Community driven Gruvbox
-Plug 'glepnir/oceanic-material'
+Plug 'Gako358/mXgruvbox'
 
 "" Coding Intellisense with coc-tabnine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -120,17 +120,10 @@ set number relativenumber
 set t_Co=256
 
 let no_buffers_menu=1
-"" let g:gruvbox_contrast_dark="hard"   ### For use with Gruvbox
+let g:gruvbox_contrast_dark="hard" 
 
 " Loading the color scheme
-silent! colorscheme oceanic_material
-
-let g:oceanic_material_background="medium"
-let g:oceanic_material_allow_bold=1
-let g:oceanic_material_allow_italic=1
-let g:oceanic_material_allow_underline=1
-let g:oceanic_material_allow_undercurl=1
-let g:oceanic_material_allow_reverse=1
+silent! colorscheme gruvbox
 
 set mousemodel=popup
 set mouse=a
@@ -169,7 +162,7 @@ cnoreabbrev Q q
 cnoreabbrev Qall qall
 
 " vim-airline
-let g:airline_theme = 'jellybeans'
+let g:airline_theme = 'gruvbox'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
