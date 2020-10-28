@@ -2,7 +2,7 @@
 "" Vim-PLug core
 "*****************************************************************************
 " Required:
-call plug#begin(expand('~/.vim/plugged'))
+call plug#begin(expand('~/.config/vim/plugged'))
 
 "*****************************************************************************
 "" Plug install packages
@@ -81,6 +81,13 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
+
+"" Remember Folds each session
+augroup remember_folds
+    autocmd!
+    autocmd BufWinLeave * mkview
+    autocmd BufWinEnter * silent! loadview
+augroup END
 
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
