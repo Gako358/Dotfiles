@@ -1,7 +1,7 @@
 My qtile config
 ===============
 
-![dirty](/qtile/misc/scrot1.png)
+![dirty](/misc/scrot1.png)
 
 # Setting up qtile
 qtile docs can be found [here](0)
