@@ -40,12 +40,6 @@ function gr --description 'git remote'
     cd /home/merrinx/Projects/Masterclass/ $argv
     git remote update $argv
     git status -uno $argv
-    echo (set_color brgreen)--------------------(set_color normal)
-    echo (set_color brred) Checking Latest project (set_color normal)
-    echo (set_color brgreen)--------------------(set_color normal)
-    cd /home/merrinx/Projects/assignment-3-cache-johnnycach/ $argv
-    git remote update $argv
-    git status -uno $argv
     echo (set_color brgreen) ----------COMPLETE!---------- (set_color normal)
     cd /home/merrinx/ $argv
 end

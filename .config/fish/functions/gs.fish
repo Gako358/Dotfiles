@@ -33,11 +33,6 @@ function gs --description 'git status'
     echo (set_color brgreen) -------------------- (set_color normal)
     cd /home/merrinx/Projects/Masterclass/ $argv
     git status $argv
-    echo (set_color brgreen) -------------------- (set_color normal)
-    echo (set_color brred) Checking Latest Project (set_color normal)
-    echo (set_color brgreen) -------------------- (set_color normal)
-    cd /home/merrinx/Projects/assignment-3-cache-johnnycach/ $argv
-    git status $argv
     echo (set_color brgreen) ----------COMPLETE!---------- (set_color normal)
     cd /home/merrinx/ $argv
 end
