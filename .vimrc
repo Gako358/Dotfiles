@@ -22,8 +22,7 @@ Plug 'xolox/vim-session'
 
 "" Color Scheme
 "" Plug 'morhetz/gruvbox'               ### Original Gruvbox
-"" Plug 'gruvbox-community/gruvbox'     ### Community driven Gruvbox
-Plug 'Gako358/mXgruvbox'
+Plug 'gruvbox-community/gruvbox'     
 
 "" Coding Intellisense with coc-tabnine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

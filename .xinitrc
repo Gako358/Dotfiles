@@ -19,7 +19,7 @@ fi
 xset s 0 -dpms
 
 # Start slstatus bar
-dwmblocks &
+slstatus &
 
 # Gnome keyring
 dbus-update-activation-environment --systemd DISPLAY
@@ -29,8 +29,8 @@ export SSH_AUTH_SOCK
 # Autostart Apps
 mopidy &
 brave &
-sleep 3 && discord &
-sleep 5 && mailspring &
+sleep 1 && discord &
+sleep 3 && mailspring &
 # ckb-next --background &
 # sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc &
 # sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc2 &
