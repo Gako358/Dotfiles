@@ -17,7 +17,6 @@ Please download and run my vimrc file found [here](https://github.com/Gako358/Do
 
 Need to have Plug installed to handle the plugins for vim.
 
-Run
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
