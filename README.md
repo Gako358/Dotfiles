@@ -21,6 +21,8 @@ Need to have Plug installed to handle the plugins for vim.
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+![dirty](Pictures/Images/fm.png)
+
 ### Other setting are found [here](https://github.com/Gako358/Dotfiles/tree/c29bff846896715ed28f6658a3c4aa086f3bf083)
 
 The Gtk theme and icons are based on gruvbox theme. Either write a gtkrc file to hold your themes or use lxappearance to set the theme.
