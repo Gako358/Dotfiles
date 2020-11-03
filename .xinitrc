@@ -6,7 +6,7 @@ xrandr --output DP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --outp
 # set the background
 if [ -f /usr/bin/feh ]; then
     # feh --bg-fill /home/merrinx/Pictures/Wallpapers/abstract_earth.jpg &
-    feh --bg-scale --no-xinerama /home/merrinx/Pictures/Wallpapers/scifi_sky.jpg &
+    feh --bg-scale --no-xinerama /home/merrinx/Pictures/Wallpapers/red_mountains.jpg &
 fi
 
 # enable window compositing
