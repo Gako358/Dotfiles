@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -50,12 +50,12 @@
  </defs>
  <g transform="translate(0,-32)">
   <g transform="translate(1.2397766e-5,0.49999956)">
-   <g transform="matrix(0.16,0,0,0.16,-38.000012,-16.877949)" style="fill:currentColor" class="ColorScheme-Text">
-    <circle cx="325" cy="227.362" r="12.5" transform="translate(-73.5,89)" style="fill:currentColor;fill-rule:evenodd"/>
-    <circle cx="325" cy="227.362" r="12.5" transform="translate(-73.5,161)" style="fill:currentColor;fill-rule:evenodd"/>
-    <circle cx="325" cy="227.362" r="12.5" transform="translate(-1.5,89)" style="fill:currentColor;fill-rule:evenodd"/>
-    <circle cx="325" cy="227.362" r="12.5" transform="translate(-1.5,161)" style="fill:currentColor;fill-rule:evenodd"/>
-    <circle cx="325" cy="227.362" r="12.5" transform="translate(-37.5,125)" style="fill:currentColor;fill-rule:evenodd"/>
+   <g transform="matrix(0.16,0,0,0.16,-38.000012,-16.877949)" style="fill:url(#oomox)" class="ColorScheme-Text">
+    <circle cx="325" cy="227.362" r="12.5" transform="translate(-73.5,89)" style="fill:url(#oomox);fill-rule:evenodd"/>
+    <circle cx="325" cy="227.362" r="12.5" transform="translate(-73.5,161)" style="fill:url(#oomox);fill-rule:evenodd"/>
+    <circle cx="325" cy="227.362" r="12.5" transform="translate(-1.5,89)" style="fill:url(#oomox);fill-rule:evenodd"/>
+    <circle cx="325" cy="227.362" r="12.5" transform="translate(-1.5,161)" style="fill:url(#oomox);fill-rule:evenodd"/>
+    <circle cx="325" cy="227.362" r="12.5" transform="translate(-37.5,125)" style="fill:url(#oomox);fill-rule:evenodd"/>
    </g>
   </g>
  </g>

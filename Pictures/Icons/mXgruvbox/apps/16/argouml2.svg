@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -52,7 +52,7 @@
   </clipPath>
  </defs>
  <g clip-path="url(#_clipPath_s21Rv4iqxKWJPyXKFiUFXZp4UCYiOlHJ)">
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="4.625" height="3.594" x="17.19" y=".06" transform="matrix(1,0,0,1,0,0)"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="M 15 1.808 L 15 12.038 C 11.231 14.192 8.539 14.731 4.769 13.654 C 2.077 10.961 1.541 8.808 1 6.072 C 4.769 9.347 10.154 9.347 15 8.264 L 5.846 10.418 L 8.932 3.699 L 12.308 9.341 L 10.154 7.187"/>
+  <rect style="fill:url(#oomox)" class="ColorScheme-Text" width="4.625" height="3.594" x="17.19" y=".06" transform="matrix(1,0,0,1,0,0)"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 15 1.808 L 15 12.038 C 11.231 14.192 8.539 14.731 4.769 13.654 C 2.077 10.961 1.541 8.808 1 6.072 C 4.769 9.347 10.154 9.347 15 8.264 L 5.846 10.418 L 8.932 3.699 L 12.308 9.341 L 10.154 7.187"/>
  </g>
 </svg>

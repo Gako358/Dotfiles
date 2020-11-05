@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -51,5 +51,5 @@
    <rect width="16" height="16"/>
   </clipPath>
  </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 2 0 L 0 10.667 L 16 10.667 L 14 0 L 2 0 Z M 0 11.333 L 0 16 L 16 16 L 16 11.333 L 0 11.333 Z M 1.333 12.667 L 2 12.667 L 2 14 L 3.333 14 L 3.333 12.667 L 4 12.667 L 4 14 L 5.333 14 L 5.333 12.667 L 6 12.667 L 6 14 L 7.333 14 L 7.333 12.667 L 8 12.667 L 8 14 L 9.333 14 L 9.333 12.667 L 10 12.667 L 10 14.667 L 1.333 14.667 L 1.333 12.667 Z M 12 13.333 L 14.667 13.333 L 14.667 14.667 L 12 14.667 L 12 13.333 Z"/>
+ <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 2 0 L 0 10.667 L 16 10.667 L 14 0 L 2 0 Z M 0 11.333 L 0 16 L 16 16 L 16 11.333 L 0 11.333 Z M 1.333 12.667 L 2 12.667 L 2 14 L 3.333 14 L 3.333 12.667 L 4 12.667 L 4 14 L 5.333 14 L 5.333 12.667 L 6 12.667 L 6 14 L 7.333 14 L 7.333 12.667 L 8 12.667 L 8 14 L 9.333 14 L 9.333 12.667 L 10 12.667 L 10 14.667 L 1.333 14.667 L 1.333 12.667 Z M 12 13.333 L 14.667 13.333 L 14.667 14.667 L 12 14.667 L 12 13.333 Z"/>
 </svg>

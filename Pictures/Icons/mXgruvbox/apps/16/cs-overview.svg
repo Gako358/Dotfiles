@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -49,15 +49,15 @@
   </linearGradient>
  </defs>
  <g transform="matrix(0.9375,0,0,0.9375,-52,-284.5)">
-  <path d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 h 6 v 6 h -6 z" style="fill:currentColor" class="ColorScheme-Text"/>
+  <path d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 h 6 v 6 h -6 z" style="fill:url(#oomox)" class="ColorScheme-Text"/>
  </g>
  <g transform="matrix(0.9375,0,0,0.9375,-52,-277)">
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 v 6 h 6 -6 z"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 v 6 h 6 -6 z"/>
  </g>
  <g transform="matrix(0.9375,0,0,0.9375,-44.5,-284.5)">
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m 56,304 v 0.5 7.5 h 8 v -8 z m 7,7 v -6 6 h -6 z"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 56,304 v 0.5 7.5 h 8 v -8 z m 7,7 v -6 6 h -6 z"/>
  </g>
  <g transform="matrix(0.9375,0,0,0.9375,-44.5,-277)">
-  <path d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 h 6 v 6 h -6 z" style="fill:currentColor" class="ColorScheme-Text"/>
+  <path d="m 56,304 v 0.5 7.5 h 8 v -8 z m 1,1 h 6 v 6 h -6 z" style="fill:url(#oomox)" class="ColorScheme-Text"/>
  </g>
 </svg>

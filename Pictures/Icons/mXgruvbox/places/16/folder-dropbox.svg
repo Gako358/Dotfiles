@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
   <defs>
    <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -54,6 +54,6 @@
  </defs>
  <g clip-path="url(#_clipPath_bBq7KKbgLGpqlkOPHl014CRkCL3jVXHi)">
   <rect style="fill:#000000" fill-opacity="0" width="16" height="16"/>
-  <path fill="currentColor" class="ColorScheme-Text" d="M 4.668 1.333 L 0.512 3.849 L 3.844 6.365 L 0.5 8.881 L 4.668 11.396 L 8 8.881 L 3.844 6.365 L 8 3.849 L 12.156 6.365 L 8 8.881 L 11.332 11.396 L 15.5 8.881 L 12.156 6.365 L 15.488 3.849 L 11.332 1.333 L 8 3.849 L 4.668 1.333 Z M 8 9.635 L 4.668 12.151 L 3.844 11.648 L 3.844 12.151 L 8 14.667 L 12.156 12.151 L 12.156 11.648 L 11.332 12.151 L 8 9.635 Z"/>
+  <path fill="url(#oomox)" class="ColorScheme-Text" d="M 4.668 1.333 L 0.512 3.849 L 3.844 6.365 L 0.5 8.881 L 4.668 11.396 L 8 8.881 L 3.844 6.365 L 8 3.849 L 12.156 6.365 L 8 8.881 L 11.332 11.396 L 15.5 8.881 L 12.156 6.365 L 15.488 3.849 L 11.332 1.333 L 8 3.849 L 4.668 1.333 Z M 8 9.635 L 4.668 12.151 L 3.844 11.648 L 3.844 12.151 L 8 14.667 L 12.156 12.151 L 12.156 11.648 L 11.332 12.151 L 8 9.635 Z"/>
  </g>
 </svg>

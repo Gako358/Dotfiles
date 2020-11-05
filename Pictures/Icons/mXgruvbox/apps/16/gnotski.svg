@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -50,11 +50,11 @@
  </defs>
  <g transform="translate(0,-32)">
   <g transform="translate(1.2397766e-5,0.49999956)">
-   <g style="fill:currentColor" class="ColorScheme-Text" transform="matrix(0.35433071,0,0,0.35433071,-3.9282038,-53.320708)">
-    <rect width="21.167" height="21.167" x="12.5" y="261.96" rx="3.024" ry="3.024" style="fill:currentColor" class="ColorScheme-Text"/>
-    <rect width="21.167" height="21.167" x="33.66" y="240.79" rx="3.024" ry="3.024" style="fill:currentColor" class="ColorScheme-Text"/>
-    <rect width="12.095" height="12.095" x="17.54" y="245.83" rx="1.512" ry="1.512" style="fill:currentColor" class="ColorScheme-Text"/>
-    <rect width="12.095" height="12.095" x="37.7" y="265.99" rx="1.512" ry="1.512" style="fill:currentColor" class="ColorScheme-Text"/>
+   <g style="fill:url(#oomox)" class="ColorScheme-Text" transform="matrix(0.35433071,0,0,0.35433071,-3.9282038,-53.320708)">
+    <rect width="21.167" height="21.167" x="12.5" y="261.96" rx="3.024" ry="3.024" style="fill:url(#oomox)" class="ColorScheme-Text"/>
+    <rect width="21.167" height="21.167" x="33.66" y="240.79" rx="3.024" ry="3.024" style="fill:url(#oomox)" class="ColorScheme-Text"/>
+    <rect width="12.095" height="12.095" x="17.54" y="245.83" rx="1.512" ry="1.512" style="fill:url(#oomox)" class="ColorScheme-Text"/>
+    <rect width="12.095" height="12.095" x="37.7" y="265.99" rx="1.512" ry="1.512" style="fill:url(#oomox)" class="ColorScheme-Text"/>
    </g>
   </g>
  </g>

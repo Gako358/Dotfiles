@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
   <defs>
    <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -54,6 +54,6 @@
  </defs>
  <g clip-path="url(#_clipPath_AAZiGJ5Ggo8alxjkpfrS82BRdCb99MHA)">
   <rect style="fill:#000000" fill-opacity="0" width="16" height="16"/>
-  <path fill="currentColor" class="ColorScheme-Text" d="M 5.5 1.571 L 9.786 8.714 L 15.5 8.714 L 10.737 1.571 L 5.5 1.571 Z M 4.501 2.428 L 0.5 10.143 L 3.215 14.429 L 6.929 6.714 L 4.501 2.428 Z M 6.929 10.143 L 4.786 14.429 L 13.357 14.429 L 15.5 10.143 L 6.929 10.143 Z"/>
+  <path fill="url(#oomox)" class="ColorScheme-Text" d="M 5.5 1.571 L 9.786 8.714 L 15.5 8.714 L 10.737 1.571 L 5.5 1.571 Z M 4.501 2.428 L 0.5 10.143 L 3.215 14.429 L 6.929 6.714 L 4.501 2.428 Z M 6.929 10.143 L 4.786 14.429 L 13.357 14.429 L 15.5 10.143 L 6.929 10.143 Z"/>
  </g>
 </svg>

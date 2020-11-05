@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -52,7 +52,7 @@
   </clipPath>
  </defs>
  <g clip-path="url(#_clipPath_JIwJicm4RvAZpMJ0Z9e4j5B5xEw3UKFj)">
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="4.625" height="3.594" x="16.38" y="0" transform="matrix(1,0,0,1,0,0)"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="M 1 0.405 L 1 15.595 C 1 15.595 8.704 12.481 15 7.995 C 15 7.994 14.999 7.993 14.998 7.991 C 14.998 7.989 14.997 7.988 14.996 7.986 C 14.994 7.984 14.993 7.983 14.992 7.981 C 14.992 7.979 14.991 7.978 14.991 7.976 C 8.35 3.347 1 0.405 1 0.405 L 1 0.405 Z"/>
+  <rect style="fill:url(#oomox)" class="ColorScheme-Text" width="4.625" height="3.594" x="16.38" y="0" transform="matrix(1,0,0,1,0,0)"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 1 0.405 L 1 15.595 C 1 15.595 8.704 12.481 15 7.995 C 15 7.994 14.999 7.993 14.998 7.991 C 14.998 7.989 14.997 7.988 14.996 7.986 C 14.994 7.984 14.993 7.983 14.992 7.981 C 14.992 7.979 14.991 7.978 14.991 7.976 C 8.35 3.347 1 0.405 1 0.405 L 1 0.405 Z"/>
  </g>
 </svg>

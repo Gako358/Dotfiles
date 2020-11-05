@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
  <defs>
    <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,5 +48,5 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
-   <path fill="currentColor" class="ColorScheme-Text" fill-rule="evenodd" d="M 8.312394 0 L 8.312394 0 Q 11.463497 0 13.120543 1.33107 L 13.120543 1.33107 L 13.120543 1.33107 Q 14.777589 2.662139 14.777589 5.21562 L 14.777589 5.21562 L 14.777589 5.21562 Q 14.777589 7.850594 13.120543 9.208829 L 13.120543 9.208829 L 13.120543 9.208829 Q 11.463497 10.567063 8.312394 10.567063 L 8.312394 10.567063 L 6.655348 10.567063 L 6.655348 13.256367 L 9.398981 13.256367 L 9.398981 16 L 1.222411 16 L 1.222411 13.256367 L 3.504244 13.256367 L 3.504244 2.743633 L 1.222411 2.743633 L 1.222411 0 L 8.312394 0 Z M 8.285229 8.095076 L 8.285229 8.095076 Q 11.490662 8.095076 11.490662 5.297114 L 11.490662 5.297114 L 11.490662 5.297114 Q 11.490662 3.993209 10.702886 3.368421 L 10.702886 3.368421 L 10.702886 3.368421 Q 9.91511 2.743633 8.285229 2.743633 L 8.285229 2.743633 L 6.682513 2.743633 L 6.682513 8.095076 L 8.285229 8.095076 Z"/>
+   <path fill="url(#oomox)" class="ColorScheme-Text" fill-rule="evenodd" d="M 8.312394 0 L 8.312394 0 Q 11.463497 0 13.120543 1.33107 L 13.120543 1.33107 L 13.120543 1.33107 Q 14.777589 2.662139 14.777589 5.21562 L 14.777589 5.21562 L 14.777589 5.21562 Q 14.777589 7.850594 13.120543 9.208829 L 13.120543 9.208829 L 13.120543 9.208829 Q 11.463497 10.567063 8.312394 10.567063 L 8.312394 10.567063 L 6.655348 10.567063 L 6.655348 13.256367 L 9.398981 13.256367 L 9.398981 16 L 1.222411 16 L 1.222411 13.256367 L 3.504244 13.256367 L 3.504244 2.743633 L 1.222411 2.743633 L 1.222411 0 L 8.312394 0 Z M 8.285229 8.095076 L 8.285229 8.095076 Q 11.490662 8.095076 11.490662 5.297114 L 11.490662 5.297114 L 11.490662 5.297114 Q 11.490662 3.993209 10.702886 3.368421 L 10.702886 3.368421 L 10.702886 3.368421 Q 9.91511 2.743633 8.285229 2.743633 L 8.285229 2.743633 L 6.682513 2.743633 L 6.682513 8.095076 L 8.285229 8.095076 Z"/>
 </svg>

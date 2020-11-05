@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 4.23 4.23">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -50,7 +50,7 @@
  </defs>
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -65,8 +65,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -98,6 +98,6 @@
   </linearGradient>
  </defs>>
  <g transform="translate(0,-292.76665)">
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m 1.7344903,292.89894 v 0.58796 H 0.26458333 v 1.91088 h 0.5879629 V 295.1038 H 1.7344903 v 1.76389 h 0.7349539 v -1.76389 h 0.8819449 v 0.29398 h 0.587963 v -0.29398 -1.6169 H 2.4694442 v -0.58796 z m -0.88194407,1.17593 H 1.7344903 v 0.44097 H 0.85254623 Z m 1.61689797,0 h 0.8819449 v 0.44097 H 2.4694442 Z"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 1.7344903,292.89894 v 0.58796 H 0.26458333 v 1.91088 h 0.5879629 V 295.1038 H 1.7344903 v 1.76389 h 0.7349539 v -1.76389 h 0.8819449 v 0.29398 h 0.587963 v -0.29398 -1.6169 H 2.4694442 v -0.58796 z m -0.88194407,1.17593 H 1.7344903 v 0.44097 H 0.85254623 Z m 1.61689797,0 h 0.8819449 v 0.44097 H 2.4694442 Z"/>
  </g>
 </svg>

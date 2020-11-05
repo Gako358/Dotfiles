@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,5 +48,5 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 3.382 0 L 0.193 3.269 L 0.557 3.642 L 4.81 8 L 0.193 12.732 L 3.382 16 L 8 11.268 L 12.617 16 L 15.807 12.732 L 11.19 8 L 15.807 3.269 L 12.617 0 L 8 4.732 L 3.382 0 L 3.382 0 Z M 3.382 0.747 L 8 5.479 L 12.617 0.747 L 15.078 3.269 L 10.46 8 L 15.078 12.732 L 12.617 15.253 L 8 10.522 L 3.382 15.253 L 0.922 12.732 L 5.539 8 L 0.922 3.269 L 3.382 0.747 L 3.382 0.747 Z"/>
+ <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 3.382 0 L 0.193 3.269 L 0.557 3.642 L 4.81 8 L 0.193 12.732 L 3.382 16 L 8 11.268 L 12.617 16 L 15.807 12.732 L 11.19 8 L 15.807 3.269 L 12.617 0 L 8 4.732 L 3.382 0 L 3.382 0 Z M 3.382 0.747 L 8 5.479 L 12.617 0.747 L 15.078 3.269 L 10.46 8 L 15.078 12.732 L 12.617 15.253 L 8 10.522 L 3.382 15.253 L 0.922 12.732 L 5.539 8 L 0.922 3.269 L 3.382 0.747 L 3.382 0.747 Z"/>
 </svg>

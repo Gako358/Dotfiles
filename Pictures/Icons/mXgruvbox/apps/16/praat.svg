@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -52,7 +52,7 @@
   </clipPath>
  </defs>
  <g clip-path="url(#_clipPath_0kI6atRrSUPDSEpP5VZHpeJJJ6zp8deh)">
-  <rect style="fill:currentColor" class="ColorScheme-Text" fill-opacity="0" width="16" height="16"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="M 3.989 5.159 L 1.169 2.338 C 2.615 0.892 4.615 0 6.831 0 C 11.263 0 14.831 3.568 14.831 8 C 14.831 12.432 11.263 16 6.831 16 C 4.615 16 2.615 15.108 1.169 13.662 L 3.989 10.841 C 4.712 11.558 5.707 12 6.805 12 Q 6.805 12.578 6.789 13.688 Q 9.29 11.18 9.668 10.793 C 10.371 10.072 10.805 9.087 10.805 8 C 10.805 5.791 9.014 4 6.805 4 C 5.707 4 4.712 4.442 3.989 5.159 Z"/>
+  <rect style="fill:url(#oomox)" class="ColorScheme-Text" fill-opacity="0" width="16" height="16"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 3.989 5.159 L 1.169 2.338 C 2.615 0.892 4.615 0 6.831 0 C 11.263 0 14.831 3.568 14.831 8 C 14.831 12.432 11.263 16 6.831 16 C 4.615 16 2.615 15.108 1.169 13.662 L 3.989 10.841 C 4.712 11.558 5.707 12 6.805 12 Q 6.805 12.578 6.789 13.688 Q 9.29 11.18 9.668 10.793 C 10.371 10.072 10.805 9.087 10.805 8 C 10.805 5.791 9.014 4 6.805 4 C 5.707 4 4.712 4.442 3.989 5.159 Z"/>
  </g>
 </svg>

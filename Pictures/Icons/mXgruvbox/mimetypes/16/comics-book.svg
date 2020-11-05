@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop id="stop3" offset="0%" style="stop-color:#dd9b44"/>
@@ -16,8 +16,8 @@
    <stop id="stop15" offset="100%" style="stop-color:#329DB6"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop id="stop18" offset="0%" style="stop-color:#efefe7"/>
-   <stop id="stop20" offset="100%" style="stop-color:#8f8f8b"/>
+   <stop id="stop18" offset="0%" style="stop-color:#ebdbb2"/>
+   <stop id="stop20" offset="100%" style="stop-color:#83a598"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop id="stop23" offset="0%" style="stop-color:#00F260"/>
@@ -48,5 +48,5 @@
    <stop style="stop-color:#ea00d9" id="stop58" offset="1"/>
   </linearGradient>
  </defs>
- <path fill="currentColor" class="ColorScheme-Text" d="M 4.338978,4.779631 C 1.762708,5.864431 0.409366,7.500862 0,9.118585 1.355926,7.762646 2.711865,7.016923 3.322031,8.847446 5.627077,7.830462 7.4576,8.576185 8,11.220369 8.5424,8.779631 10.169477,7.694831 12.677908,8.847446 13.152492,7.355877 14.305108,7.355877 16,9.118585 15.661046,7.627139 14.508431,5.999939 11.661046,4.779631 L 11.322092,5.7288 8.813538,6.338893 8.5424,5.254216 8.271138,5.932123 8,5.999943 7.728862,5.932123 7.4576,5.254216 7.254277,6.338893 4.677908,5.7288 Z"/>
+ <path fill="url(#oomox)" class="ColorScheme-Text" d="M 4.338978,4.779631 C 1.762708,5.864431 0.409366,7.500862 0,9.118585 1.355926,7.762646 2.711865,7.016923 3.322031,8.847446 5.627077,7.830462 7.4576,8.576185 8,11.220369 8.5424,8.779631 10.169477,7.694831 12.677908,8.847446 13.152492,7.355877 14.305108,7.355877 16,9.118585 15.661046,7.627139 14.508431,5.999939 11.661046,4.779631 L 11.322092,5.7288 8.813538,6.338893 8.5424,5.254216 8.271138,5.932123 8,5.999943 7.728862,5.932123 7.4576,5.254216 7.254277,6.338893 4.677908,5.7288 Z"/>
 </svg>

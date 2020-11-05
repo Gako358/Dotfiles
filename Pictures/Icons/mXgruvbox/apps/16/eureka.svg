@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,5 +48,5 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 4.883 10.895 L 4.883 0.856 L 4.868 0.829 L 4.417 0 L 4.911 0 L 5.373 0 L 6.366 0 L 6.923 0 L 10.595 0 L 11.583 0.989 L 11.583 3.177 L 9.465 3.177 L 9.465 2.471 L 6.994 2.471 L 6.994 4.943 L 9.818 4.943 L 9.818 7.061 L 6.994 7.061 L 6.994 9.754 L 6.994 10.874 L 9.465 9.391 L 9.465 8.473 L 11.583 8.473 L 11.583 10.874 L 4.883 16 L 4.883 14.828 L 4.883 13.387 L 4.883 10.895 Z"/>
+ <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 4.883 10.895 L 4.883 0.856 L 4.868 0.829 L 4.417 0 L 4.911 0 L 5.373 0 L 6.366 0 L 6.923 0 L 10.595 0 L 11.583 0.989 L 11.583 3.177 L 9.465 3.177 L 9.465 2.471 L 6.994 2.471 L 6.994 4.943 L 9.818 4.943 L 9.818 7.061 L 6.994 7.061 L 6.994 9.754 L 6.994 10.874 L 9.465 9.391 L 9.465 8.473 L 11.583 8.473 L 11.583 10.874 L 4.883 16 L 4.883 14.828 L 4.883 13.387 L 4.883 10.895 Z"/>
 </svg>

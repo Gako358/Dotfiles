@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,5 +48,5 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 8.074 2.925 L 8.074 4.79 L 9.338 3.421 L 9.338 0 L 6.838 0 L 6.838 2.316 L 1.952 7.316 L 1.952 7.816 L 6.838 7.816 L 6.838 10.737 L 8.074 10.737 L 8.074 9.474 L 11.401 9.474 L 8.074 13.496 L 8.074 11.5 L 6.838 13.053 L 6.838 16 L 9.338 16 L 9.338 13.842 L 14.048 8.237 L 9.338 8.237 L 9.338 5.211 L 8.074 5.211 L 8.074 6.526 L 4.504 6.526 L 8.074 2.925 Z"/>
+ <path style="fill:url(#oomox)" class="ColorScheme-Text" d="M 8.074 2.925 L 8.074 4.79 L 9.338 3.421 L 9.338 0 L 6.838 0 L 6.838 2.316 L 1.952 7.316 L 1.952 7.816 L 6.838 7.816 L 6.838 10.737 L 8.074 10.737 L 8.074 9.474 L 11.401 9.474 L 8.074 13.496 L 8.074 11.5 L 6.838 13.053 L 6.838 16 L 9.338 16 L 9.338 13.842 L 14.048 8.237 L 9.338 8.237 L 9.338 5.211 L 8.074 5.211 L 8.074 6.526 L 4.504 6.526 L 8.074 2.925 Z"/>
 </svg>

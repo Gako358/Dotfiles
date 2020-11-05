@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,9 +48,9 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
- <g transform="matrix(0.43609935,0,0,0.43609935,-5.9675823,-103.51794)" style="fill:currentColor" class="ColorScheme-Text">
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m 14.830524,255.56943 v -15.9695 h 8.598724 l 2.35e-4,7.37054 -2.35e-4,24.56844 h -8.598724 z"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m 40.627398,255.56943 v -15.9695 h 8.598725 l 2.34e-4,7.37054 -2.34e-4,24.56844 h -8.598725 z"/>
-  <path d="M 40.627164,261.71154 32.028205,254.341 v 9.82737 l 8.599193,7.37054 h -2.34e-4 z m -17.197916,0 8.598957,-7.37054 v 9.82737 l -8.599191,7.37054 h 2.34e-4 z" style="fill:currentColor" class="ColorScheme-Text"/>
+ <g transform="matrix(0.43609935,0,0,0.43609935,-5.9675823,-103.51794)" style="fill:url(#oomox)" class="ColorScheme-Text">
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 14.830524,255.56943 v -15.9695 h 8.598724 l 2.35e-4,7.37054 -2.35e-4,24.56844 h -8.598724 z"/>
+  <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 40.627398,255.56943 v -15.9695 h 8.598725 l 2.34e-4,7.37054 -2.34e-4,24.56844 h -8.598725 z"/>
+  <path d="M 40.627164,261.71154 32.028205,254.341 v 9.82737 l 8.599193,7.37054 h -2.34e-4 z m -17.197916,0 8.598957,-7.37054 v 9.82737 l -8.599191,7.37054 h 2.34e-4 z" style="fill:url(#oomox)" class="ColorScheme-Text"/>
  </g>
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" viewBox="0 0 16 16">
  <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7"/>
-   <stop offset="100%" style="stop-color:#8f8f8b"/>
+   <stop offset="0%" style="stop-color:#ebdbb2"/>
+   <stop offset="100%" style="stop-color:#83a598"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260"/>
@@ -48,5 +48,5 @@
    <stop offset="1" style="stop-color:#ea00d9"/>
   </linearGradient>
  </defs>
- <path fill="currentColor" fill-rule="evenodd" class="ColorScheme-Text" d="M2 7.9989L10.2436 0L12.3123 2.13198L5.22359 9.01025C4.58575 9.62915 3.56696 9.6138 2.94806 8.97596L2 7.9989ZM5.06967 11.2666L10.3214 6.17083L12.3901 8.30281L8.29326 12.278C7.65542 12.8969 6.63663 12.8815 6.01773 12.2437L5.06967 11.2666ZM10.7939 11.9585L8.13934 14.5343L9.0874 15.5114C9.7063 16.1492 10.7251 16.1646 11.3629 15.5457L12.8626 14.0905L10.7939 11.9585Z" clip-rule="evenodd"/>
+ <path fill="url(#oomox)" fill-rule="evenodd" class="ColorScheme-Text" d="M2 7.9989L10.2436 0L12.3123 2.13198L5.22359 9.01025C4.58575 9.62915 3.56696 9.6138 2.94806 8.97596L2 7.9989ZM5.06967 11.2666L10.3214 6.17083L12.3901 8.30281L8.29326 12.278C7.65542 12.8969 6.63663 12.8815 6.01773 12.2437L5.06967 11.2666ZM10.7939 11.9585L8.13934 14.5343L9.0874 15.5114C9.7063 16.1492 10.7251 16.1646 11.3629 15.5457L12.8626 14.0905L10.7939 11.9585Z" clip-rule="evenodd"/>
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" width="16" height="16" viewBox="0 0 16 16">
  <defs>
    <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -48,5 +48,5 @@
     <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
   </linearGradient>
  </defs>
-   <path fill="currentColor" class="ColorScheme-Text" d="M 16 0.571429 L 16 15.428571 L 0 15.428571 L 0 0.571429 M 14.857143 1.714286 L 6.857143 1.714286 L 6.857143 5.142857 L 14.857143 5.142857 M 5.714286 1.714286 L 1.142857 1.714286 L 1.142857 5.142857 L 5.714286 5.142857 M 14.857143 6.285714 L 6.857143 6.285714 L 6.857143 9.714286 L 14.857143 9.714286 M 5.714286 6.285714 L 1.142857 6.285714 L 1.142857 9.714286 L 5.714286 9.714286 M 14.857143 10.857143 L 6.857143 10.857143 L 6.857143 14.285714 L 14.857143 14.285714 M 5.714286 10.857143 L 1.142857 10.857143 L 1.142857 14.285714 L 5.714286 14.285714"/>
+   <path fill="url(#oomox)" class="ColorScheme-Text" d="M 16 0.571429 L 16 15.428571 L 0 15.428571 L 0 0.571429 M 14.857143 1.714286 L 6.857143 1.714286 L 6.857143 5.142857 L 14.857143 5.142857 M 5.714286 1.714286 L 1.142857 1.714286 L 1.142857 5.142857 L 5.714286 5.142857 M 14.857143 6.285714 L 6.857143 6.285714 L 6.857143 9.714286 L 14.857143 9.714286 M 5.714286 6.285714 L 1.142857 6.285714 L 1.142857 9.714286 L 5.714286 9.714286 M 14.857143 10.857143 L 6.857143 10.857143 L 6.857143 14.285714 L 14.857143 14.285714 M 5.714286 10.857143 L 1.142857 10.857143 L 1.142857 14.285714 L 5.714286 14.285714"/>
 </svg>

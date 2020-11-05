@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
@@ -16,8 +16,8 @@
    <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
-   <stop offset="0%" style="stop-color:#efefe7; stop-opacity:1"/>
-   <stop offset="100%" style="stop-color:#8f8f8b; stop-opacity:1"/>
+   <stop offset="0%" style="stop-color:#ebdbb2; stop-opacity:1"/>
+   <stop offset="100%" style="stop-color:#83a598; stop-opacity:1"/>
   </linearGradient>
   <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
    <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
@@ -50,8 +50,8 @@
  </defs>
  <g transform="translate(0,-1036.3622)">
   <g transform="matrix(-1,0,0,1,57.392857,276.32649)">
-   <path style="fill:currentColor" class="ColorScheme-Text" d="m 50.549107,762.06696 6.46875,6.46875 c 0.469023,0.46901 0.375321,1.03093 0,1.40625 l -4.21875,4.25 c -0.359376,0.35941 -1.015625,0.39067 -1.40625,0.0312 l -0.75,-0.75 4.21875,-4.25 c 0.375321,-0.37532 0.469023,-0.93724 0,-1.40625 l -5.71875,-5.71875 z"/>
-   <path style="fill:currentColor" class="ColorScheme-Text" d="m 47.254912,760.95804 6.46875,6.46875 c 0.469023,0.46901 0.375321,1.03093 0,1.40625 l -4.21875,4.25 c -0.359376,0.35941 -1.015625,0.39062 -1.40625,0.0312 l -6.5,-6.5 0.15625,-4.9375 c -4e-6,-0.17009 0.425825,-0.5625 0.59375,-0.5625 l 4.90625,-0.15625 z m -3.06093,1.61049 c -0.543655,0 -1,0.4251 -1,0.96875 0,0.54366 0.456345,1 1,1 0.543655,0 0.96875,-0.45634 0.96875,-1 0,-0.54365 -0.425095,-0.96875 -0.96875,-0.96875 z"/>
+   <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 50.549107,762.06696 6.46875,6.46875 c 0.469023,0.46901 0.375321,1.03093 0,1.40625 l -4.21875,4.25 c -0.359376,0.35941 -1.015625,0.39067 -1.40625,0.0312 l -0.75,-0.75 4.21875,-4.25 c 0.375321,-0.37532 0.469023,-0.93724 0,-1.40625 l -5.71875,-5.71875 z"/>
+   <path style="fill:url(#oomox)" class="ColorScheme-Text" d="m 47.254912,760.95804 6.46875,6.46875 c 0.469023,0.46901 0.375321,1.03093 0,1.40625 l -4.21875,4.25 c -0.359376,0.35941 -1.015625,0.39062 -1.40625,0.0312 l -6.5,-6.5 0.15625,-4.9375 c -4e-6,-0.17009 0.425825,-0.5625 0.59375,-0.5625 l 4.90625,-0.15625 z m -3.06093,1.61049 c -0.543655,0 -1,0.4251 -1,0.96875 0,0.54366 0.456345,1 1,1 0.543655,0 0.96875,-0.45634 0.96875,-1 0,-0.54365 -0.425095,-0.96875 -0.96875,-0.96875 z"/>
   </g>
  </g>
 </svg>
