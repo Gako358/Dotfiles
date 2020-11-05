@@ -3,11 +3,11 @@
 // main colors used in theme
 // 1.0 < 1 will result in most cinnamon surfaces being transparent
 $button_bg_color: #83a598;
-$button_fg_color: #ebdbb2;
+$button_fg_color: #fbf1c7;
 $selected_bg_color: #83a598;
 $selected_fg_color: #282828;
 $tooltip_bg_color: #665c54;
-$tooltip_fg_color: #ebdbb2;
+$tooltip_fg_color: #fbf1c7;
 $dark_bg_color: fade-out(#1d2021, 1 - 1.0);
 $dark_fg_color: #ebdbb2;
 
@@ -65,7 +65,7 @@ $scrollbar_slider_color: mix($dark_bg_color, $dark_fg_color, 20%);
 $scrollbar_slider_hover_color: mix($dark_bg_color, $selected_bg_color, 20%);
 
 // caret colors for dialog entrys
-$primary_caret_color: #b8bb26;
+$primary_caret_color: #fbf1c7;
 
 // other colors used in the theme
 $link_color: #458588;
@@ -76,7 +76,7 @@ $info_fg_color: #282828;
 $info_bg_color: #83a598;
 
 // used for border-radius throughout theme
-$roundness: 5px;
+$roundness: 3px;
 
 // used for buttons, entrys, panel spacing, and menu item spacing.
 $spacing: 1px;

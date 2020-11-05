@@ -11,7 +11,7 @@
   <sodipodi:namedview inkscape:current-layer="svg65" inkscape:window-maximized="1" inkscape:window-y="32" inkscape:window-x="0" inkscape:cy="9.9488637" inkscape:cx="8" inkscape:zoom="40.625" showgrid="false" id="namedview67" inkscape:window-height="816" inkscape:window-width="1600" inkscape:pageshadow="2" inkscape:pageopacity="0" guidetolerance="10" gridtolerance="10" objecttolerance="10" borderopacity="1" inkscape:document-rotation="0" bordercolor="#666666" pagecolor="#ffffff" />
   <defs id="defs61">
     <style type="text/css" id="current-color-scheme">
-   .ColorScheme-Text { color:#b8bb26; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#83a598; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
     <linearGradient y2="100%" y1="0%" x2="0%" x1="0%" id="arrongin">
       <stop id="stop3" style="stop-color:#dd9b44; stop-opacity:1" offset="0%" />
@@ -58,5 +58,5 @@
       <stop id="stop58" style="stop-color:#ea00d9; stop-opacity:1" offset="1" />
     </linearGradient>
   </defs>
-  <path inkscape:connector-curvature="0" id="path894" d="M 0,15.999999 V 12.000066 L 1.999933,8.000071 0,3.999907 V 1e-6 H 3.999866 L 8,2.000019 11.999865,1e-6 H 16 V 3.999907 L 13.99976,8.000071 16,12.000066 v 3.999933 H 11.999865 L 8,13.999982 3.999866,15.999999 Z" style="fill:#b8bb26;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path inkscape:connector-curvature="0" id="path894" d="M 0,15.999999 V 12.000066 L 1.999933,8.000071 0,3.999907 V 1e-6 H 3.999866 L 8,2.000019 11.999865,1e-6 H 16 V 3.999907 L 13.99976,8.000071 16,12.000066 v 3.999933 H 11.999865 L 8,13.999982 3.999866,15.999999 Z" style="fill:#83a598;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
 </svg>
