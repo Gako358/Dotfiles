@@ -28,9 +28,10 @@ export SSH_AUTH_SOCK
 
 # Autostart Apps
 mopidy &
-brave &
+firefox &
+powerkit &
 sleep 1 && discord &
-sleep 3 && mailspring &
+sleep 3 && thunderbird &
 # ckb-next --background &
 # sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc &
 # sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc2 &
