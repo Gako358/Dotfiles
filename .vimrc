@@ -20,6 +20,9 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
 "" Color Scheme
+" Plug 'mhartington/oceanic-next'   ### Oceanic Next
+" Plug 'tomasr/molokai'             ### Molokai
+
 Plug 'gruvbox-community/gruvbox'     
 
 "" Coding Intellisense with coc-tabnine
