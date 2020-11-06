@@ -12,7 +12,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
-Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 
@@ -21,14 +20,10 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
 "" Color Scheme
-"" Plug 'morhetz/gruvbox'               ### Original Gruvbox
 Plug 'gruvbox-community/gruvbox'     
 
 "" Coding Intellisense with coc-tabnine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-"" Coding error handling /msg
-Plug 'scrooloose/syntastic'
 
 call plug#end()
 
@@ -81,13 +76,6 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-"" Mappings to toggle fold
-set foldmethod=manual
-inoremap <F9> <C-O>za
-nnoremap <F9> za
-onoremap <F9> <C-C>za
-vnoremap <F9> zf
-
 "" Remember Folds each session
 augroup remember_folds
     autocmd!
@@ -100,30 +88,6 @@ inoremap <silent><expr> <Tab>
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
 
-" GoTo code navigation.
-nmap <buffer> <leader>gd <Plug>(coc-definition)
-nmap <buffer> <leader>gy <Plug>(coc-type-definition)
-nmap <buffer> <leader>gi <Plug>(coc-implementation)
-nmap <buffer> <leader>gr <Plug>(coc-references)
-nnoremap <buffer> <leader>cr :CocRestart
-
-" Syntetics Error Handling
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_quiet_messages = { "type": "style"  }
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 1
-
-" Python Checkers
-let g:syntastic_python_checkers = ['pylint']
-
-" C Checkers
-let g:syntastic_c_checkers=['make','gcc']
-
 "*****************************************************************************
 "" Visual Settings
 "*****************************************************************************
@@ -133,7 +97,7 @@ set number relativenumber
 set t_Co=256
 
 let no_buffers_menu=1
-let g:gruvbox_contrast_dark="hard" 
+let g:gruvbox_contrast_dark="medium" 
 
 " Loading the color scheme
 silent! colorscheme gruvbox
@@ -157,7 +121,7 @@ set title
 set titleold="Terminal"
 set titlestring=%F
 
-set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)%{FugitiveStatusline() }\ (line\ %l\/%L,\ col\ %c)\
 
 nnoremap n nzzzv
 nnoremap N Nzzzv
@@ -199,8 +163,24 @@ command! FixWhitespace :%s/\s\+$//e
 "*****************************************************************************
 "" Mappings
 "*****************************************************************************
-" Check Code
-nnoremap <F7> :SyntasticCheck<CR>
+
+" Coc diagnostic
+nmap <silent> <leader>[ <Plug>(coc-diagnostic-prev)
+nmap <silent> <leader>] <Plug>(coc-diagnostic-next)
+
+" GoTo code navigation.
+nmap <buffer> <leader>gd <Plug>(coc-definition)
+nmap <buffer> <leader>gy <Plug>(coc-type-definition)
+nmap <buffer> <leader>gi <Plug>(coc-implementation)
+nmap <buffer> <leader>gr <Plug>(coc-references)
+nnoremap <buffer> <leader>cr :CocRestart
+
+"" Mappings to toggle fold
+set foldmethod=manual
+inoremap <F9> <C-O>za
+nnoremap <F9> za
+onoremap <F9> <C-C>za
+vnoremap <F9> zf
 
 "" Split
 noremap <Leader>h :<C-u>split<CR>
