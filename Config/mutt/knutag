@@ -1,0 +1,28 @@
+set imap_pass			  = "Perrin645"
+set use_from			  = yes
+set realname			  = "Knut Oien"
+set my_drafts             = "Drafts"
+set my_drafts_noquote     = "Drafts"
+set my_sent               = "Sent<quote-char><space>Items"
+set my_sent_noquote       = "Sent Items"
+set my_trash              = "Deleted<quote-char><space>Items"
+set my_trash_noquote      = "Deleted Items"
+set imap_user             = "knutago1@outlook.com"
+set folder                = "imaps://imap-mail.outlook.com:993/"
+set imap_authenticators   = "login"
+set mbox                  = "+INBOX"
+set spoolfile              = "+INBOX"
+set record                = +$my_sent_noquote
+set postponed             = +$my_drafts_noquote
+set trash                 = +$my_trash_noquote
+set smtp_url              = "smtp://$imap_user@smtp-mail.outlook.com:587"
+set smtp_pass			  = $imap_pass
+set smtp_authenticators   = "login"
+set copy                  = "yes"
+account-hook $folder "set imap_user=$imap_user"
+
+bind    index   G  imap-fetch-mail
+macro   index   gi "<change-folder>=INBOX<enter>"       "Go to Inbox"
+macro   index   gs "<change-folder>=$my_sent<enter>"    "Go to Sent"
+macro   index   gd "<change-folder>=$my_drafts<enter>"  "Go to Drafts"
+macro   index   gt "<change-folder>=$my_trash<enter>"   "Go to Trash"

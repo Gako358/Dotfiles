@@ -1,0 +1,8 @@
+source "~/.config/mutt/knutag"
+folder-hook $folder 'source ~/.config/mutt/knutag'
+
+source "~/.config/mutt/gako358"
+folder-hook $folder 'source ~/.config/mutt/gako358'
+
+macro index <f2> '<sync-mailbox><enter-command>source ~/.config/mutt/knutag<enter><change-folder>!<enter>'
+macro index <f3> '<sync-mailbox><enter-command>source ~/.config/mutt/gako358<enter><change-folder>!<enter>'
