@@ -13,7 +13,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
 
 "" Vim-Session
 Plug 'xolox/vim-misc'
@@ -100,7 +99,7 @@ set number relativenumber
 set t_Co=256
 
 let no_buffers_menu=1
-let g:gruvbox_contrast_dark="medium" 
+let g:gruvbox_contrast_dark="hard" 
 
 " Loading the color scheme
 silent! colorscheme gruvbox

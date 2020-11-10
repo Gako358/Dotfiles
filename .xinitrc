@@ -22,18 +22,14 @@ xset s 0 -dpms
 slstatus &
 
 # Gnome keyring
-dbus-update-activation-environment --systemd DISPLAY
-eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
-export SSH_AUTH_SOCK
+# dbus-update-activation-environment --systemd DISPLAY
+# eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+# export SSH_AUTH_SOCK
 
 # Autostart Apps
 mopidy &
 brave &
 sleep 1 && discord &
-sleep 3 && mailspring &
-# ckb-next --background &
-# sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc &
-# sleep 5 && conky --config=/home/merrinx/.config/conky/conkyrc2 &
 
 # launch dwm
 exec dwm
