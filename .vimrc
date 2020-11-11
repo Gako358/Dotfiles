@@ -233,11 +233,11 @@ nmap <silent> <leader>[ <Plug>(coc-diagnostic-prev)
 nmap <silent> <leader>] <Plug>(coc-diagnostic-next)
 
 " GoTo code navigation.
-nmap <buffer> <leader>gd <Plug>(coc-definition)
-nmap <buffer> <leader>gy <Plug>(coc-type-definition)
-nmap <buffer> <leader>gi <Plug>(coc-implementation)
-nmap <buffer> <leader>gr <Plug>(coc-references)
-nnoremap <buffer> <leader>cr :CocRestart
+nmap <buffer> <leader>cd <Plug>(coc-definition)
+nmap <buffer> <leader>cy <Plug>(coc-type-definition)
+nmap <buffer> <leader>ci <Plug>(coc-implementation)
+nmap <buffer> <leader>cr <Plug>(coc-references)
+nnoremap <buffer> <leader>cb :CocRestart
 
 "" Diagnostic Ale nav
 nmap <silent> <leader>k <Plug>(ale_previous_wrap)
