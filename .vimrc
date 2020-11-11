@@ -240,8 +240,8 @@ nmap <buffer> <leader>gr <Plug>(coc-references)
 nnoremap <buffer> <leader>cr :CocRestart
 
 "" Diagnostic Ale nav
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nmap <silent> <leader>k <Plug>(ale_previous_wrap)
+nmap <silent> <leader>j <Plug>(ale_next_wrap)
 
 "" Git
 noremap <Leader>ga :Gwrite<CR>
