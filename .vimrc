@@ -105,7 +105,7 @@ inoremap <silent><expr> <Tab>
 let g:ale_linters = {}
 
 :call extend(g:ale_linters, {
-            \'python': ['flake8'], })
+            \'python': ['pylint'], })
 
 :call extend(g:ale_linters, {
             \'javascript': ['eslint'], })
@@ -116,6 +116,7 @@ let g:ale_linters = {}
 "*****************************************************************************
 "" Visual Settings
 "*****************************************************************************
+
 syntax enable
 set ruler
 set number relativenumber 
@@ -130,6 +131,9 @@ let g:ale_sign_warning = '--'
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_insert_leave = 0
 let g:ale_lint_on_enter = 1
+
+"" Visual studio mapping for debug
+let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 " Loading the color scheme
 silent! colorscheme gruvbox
@@ -283,7 +287,7 @@ nnoremap <S-Tab> gT
 nnoremap <silent> <S-t> :tabnew<CR>
 
 "" Reset Search
-nnoremap <F5> :noh<CR>
+nnoremap <F7> :noh<CR>
 
 "" Terminal
 noremap <Leader>t :below terminal<CR>
