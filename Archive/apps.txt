@@ -8,6 +8,7 @@ bison 3.7.2-1
 brave-bin 1:1.16.76-1
 broadcom-wl 6.30.223.271-243
 btrfs-progs 5.9-1
+ckb-next 0.4.2-6
 clang 11.0.0-1
 cronie 1.5.5-1
 discord 0.0.12-2
@@ -56,7 +57,7 @@ nerd-fonts-complete 2.1.0-3
 net-tools 1.60.20181103git-2
 netctl 1.23-1
 networkmanager 1.26.4-1
-nodejs 15.2.0-1
+nodejs 15.2.1-1
 npm 6.14.8-2
 pacman 5.2.2-1
 paru 1.1.1-1
