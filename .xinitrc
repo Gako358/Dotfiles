@@ -31,7 +31,7 @@ slstatus &
 mopidy &
 brave &
 sleep 1 && discord &
-sleep 3 && ckb-next-daemon &
+sleep 3 && ckb-next &
 
 # launch dwm
 exec dwm
