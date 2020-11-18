@@ -4,3 +4,5 @@ if status is-login
         exec startx -- -keeptty
     end
 end
+
+set --export WINEPREFIX /opt/WineLibrary
