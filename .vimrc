@@ -6,9 +6,7 @@ call plug#begin(expand('~/.config/vim/plugged'))
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
-Plug 'scrooloose/nerdtree'
 Plug 'Yggdroot/indentLine'
-Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
@@ -17,7 +15,6 @@ Plug 'tpope/vim-commentary'
 Plug 'vim-scripts/grep.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
-Plug 'dense-analysis/ale'               "" dynamic debug"
 Plug 'tpope/vim-rhubarb'                "" required by fugitive to :Gbrowse"
 Plug 'majutsushi/tagbar'
 
@@ -29,9 +26,6 @@ Plug 'xolox/vim-session'
 " Plug 'mhartington/oceanic-next'       " Oceanic Next
 " Plug 'tomasr/molokai'                 " Molokai
 Plug 'gruvbox-community/gruvbox'     
-
-"" Vim Debugging tool
-Plug 'puremourning/vimspector'
 
 "" Coding Intellisense with coc-tabnine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -96,18 +90,6 @@ inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
-
-"" ale
-let g:ale_linters = {}
-
-:call extend(g:ale_linters, {
-            \'python': ['pylint'], })
-
-:call extend(g:ale_linters, {
-            \'javascript': ['eslint'], })
-
-:call extend(g:ale_linters, {
-            \'c': ['clang'], })
 "*****************************************************************************
 "" Visual Settings
 "*****************************************************************************
@@ -119,16 +101,6 @@ set t_Co=256
 
 let no_buffers_menu=1
 let g:gruvbox_contrast_dark="hard" 
-
-let g:airline#extensions#ale#enabled = 1
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
-let g:ale_lint_on_text_changed = 'never'
-let g:ale_lint_on_insert_leave = 0
-let g:ale_lint_on_enter = 1
-
-"" Visual studio mapping for debug
-let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 " Loading the color scheme
 silent! colorscheme gruvbox
@@ -181,18 +153,6 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
 
-"" NERDTree configuration
-let g:NERDTreeChDirMode=2
-let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
-let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
-let g:NERDTreeShowBookmarks=1
-let g:nerdtree_tabs_focus_on_files=1
-let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
-let g:NERDTreeWinSize = 30
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
-nnoremap <silent> <F2> :NERDTreeFind<CR>
-nnoremap <silent> <F3> :NERDTreeToggle<CR>
-
 " grep.vim
 nnoremap <silent> <leader>f :Rgrep<CR>
 let Grep_Default_Options = '-IR'
@@ -224,6 +184,19 @@ augroup vimrc-remember-cursor-position
     autocmd!
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 augroup END
+
+let g:coc_explorer_global_presets = {
+\   '.vim': {
+\     'root-uri': '~/',
+\   },
+\   'tab': {
+\     'position': 'tab',
+\     'quit-on-open': v:true,
+\   },
+\   'simplify': {
+\     'file-child-template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
 "*****************************************************************************
 "" Mappings
 "*****************************************************************************
@@ -239,9 +212,8 @@ nmap <buffer> <leader>ci <Plug>(coc-implementation)
 nmap <buffer> <leader>cr <Plug>(coc-references)
 nnoremap <buffer> <leader>cb :CocRestart
 
-"" Diagnostic Ale nav
-nmap <silent> <leader>k <Plug>(ale_previous_wrap)
-nmap <silent> <leader>j <Plug>(ale_next_wrap)
+" Coc-explorer
+nmap <silent><F2> :CocCommand explorer --preset .vim<CR>
 
 "" Git
 noremap <Leader>ga :Gwrite<CR>
@@ -255,10 +227,10 @@ noremap <Leader>gr :Gremove<CR>"
 
 "" Mappings to toggle fold
 set foldmethod=manual
-inoremap <F9> <C-O>za
-nnoremap <F9> za
-onoremap <F9> <C-C>za
-vnoremap <F9> zf
+inoremap <F4> <C-O>za
+nnoremap <F4> za
+onoremap <F4> <C-C>za
+vnoremap <F4> zf
 
 "" Split
 noremap <Leader>h :<C-u>split<CR>
@@ -280,14 +252,10 @@ nnoremap <S-Tab> gT
 nnoremap <silent> <S-t> :tabnew<CR>
 
 "" Reset Search
-nnoremap <F7> :noh<CR>
+nnoremap <F3> :noh<CR>
 
 "" Terminal
 noremap <Leader>t :below terminal<CR>
-
-"" Tagbar
-nmap <silent> <F4> :TagbarToggle<CR>
-let g:tagbar_autofocus = 1
 
 "" Copy/Paste/Cut
 if has('unnamedplus')
