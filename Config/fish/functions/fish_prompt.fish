@@ -32,7 +32,7 @@ function fish_prompt --description 'Write out the prompt'
         else
             set git_status (set_color green):
         end
-        set git_info "(git$git_status$git_branch"(set_color white)")"
+        set git_info "(git$git_status$git_branch"(set_color brwhite)")"
     end
 
     # Disable PWD shortening by default.
@@ -40,7 +40,7 @@ function fish_prompt --description 'Write out the prompt'
     or set -lx fish_prompt_pwd_dir_length 0
 
     set_color -b black
-    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' (set_color -o white) '❰' (set_color brblue) $USER (set_color white) '❙' (set_color brgreen) (prompt_pwd) (set_color white) $git_info (set_color white) '❱' (set_color white)
+    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' (set_color -o white) '❰' (set_color brblue) $USER (set_color white) '❙' (set_color brgreen) (prompt_pwd) (set_color brwhite) $git_info (set_color brwhite) '❱' (set_color brwhite)
     if test $laststatus -eq 0
         printf "%s✔%s≻%s " (set_color -o brgreen) (set_color white) (set_color normal)
     else
