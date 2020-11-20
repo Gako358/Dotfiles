@@ -10,6 +10,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'sheerun/vim-polyglot'             "" language pack
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'vim-scripts/grep.vim'
@@ -23,9 +24,9 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
 "" Color Scheme
-" Plug 'mhartington/oceanic-next'       " Oceanic Next
 " Plug 'tomasr/molokai'                 " Molokai
-Plug 'gruvbox-community/gruvbox'     
+" Plug 'gruvbox-community/gruvbox'      " Gruvbox
+Plug 'sainnhe/sonokai'
 
 "" Coding Intellisense with coc-tabnine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -100,10 +101,9 @@ set number relativenumber
 set t_Co=256
 
 let no_buffers_menu=1
-let g:gruvbox_contrast_dark="hard" 
 
 " Loading the color scheme
-silent! colorscheme gruvbox
+silent! colorscheme sonokai
 
 set mousemodel=popup
 set mouse=a
@@ -146,7 +146,7 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'sonokai'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
