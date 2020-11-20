@@ -102,8 +102,12 @@ set t_Co=256
 
 let no_buffers_menu=1
 
+let g:sonokai_style = 'andromeda'
+let g:sonokai_enable_italic = 1
+let g:sonokai_disable_italic_comment = 1
+
 " Loading the color scheme
-silent! colorscheme sonokai
+colorscheme sonokai
 
 set mousemodel=popup
 set mouse=a
