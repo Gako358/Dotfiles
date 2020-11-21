@@ -145,6 +145,10 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
+"" alternative for escape
+inoremap jk <esc>
+inoremap kj <esc>
+
 if exists("*fugitive#statusline")
     set statusline+=%{fugitive#statusline()}
 endif

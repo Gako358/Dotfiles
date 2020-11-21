@@ -30,7 +30,8 @@ slstatus &
 # Autostart Apps
 mopidy &
 brave &
-sleep 1 && discord &
+sleep 1 && discord --start-minimized &
+sleep 2 && nm-applet &
 sleep 3 && ckb-next --background &
 
 # launch dwm
