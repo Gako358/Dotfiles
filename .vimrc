@@ -114,10 +114,6 @@ augroup remember_folds
     autocmd BufWinEnter * silent! loadview
 augroup END
 
-if exists("*fugitive#statusline")
-    set statusline+=%{fugitive#statusline()}
-endif
-
 source ~/.config/vim/addons/session.vim
 source ~/.config/vim/addons/explorer.vim
 source ~/.config/vim/addons/airline.vim
