@@ -6,7 +6,7 @@ bashtop 0.9.25-1
 binutils 2.35.1-1
 bison 3.7.2-1
 brave-bin 1:1.17.73-1
-broadcom-wl 6.30.223.271-244
+broadcom-wl-dkms 6.30.223.271-23
 btrfs-progs 5.9-1
 ckb-next 0.4.2-6
 clang 11.0.0-1
@@ -40,6 +40,7 @@ lib32-mesa 20.2.2-2
 libtool 2.4.6+42+gb88cebd5-14
 linux 5.9.9.arch1-1
 linux-firmware 20201113.2ea8667-1
+linux-headers 5.9.9.arch1-1
 linux-lts 5.4.78-1
 linux-lts-headers 5.4.78-1
 lutris 0.5.8-1
